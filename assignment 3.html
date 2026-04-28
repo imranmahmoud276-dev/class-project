@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    
+    
+    
+    <title>EduTech University — Excellence in Learning</title>
+
+    <!--<style>
+        body { font-family: Arial; margin: 0; }
+        header, footer { background: #222; color: white; padding: 15px; }
+        nav ul { list-style: none; display: flex; gap: 10px; }
+        section { padding: 20px; border-bottom: 1px solid #ccc; }
+        table, th, td { border: 1px solid black; border-collapse: collapse; padding: 5px; }
+    </style> -->
+</head>
+<body style="font-family: Arial; margin: 0; ">
+    <header style="background-color:#222; color:white; padding:10px; ">
+    <hgroup>
+        <h1>EduTech University</h1>
+        <h2><em>Excellence in Learning</em></h2>
+    </hgroup>
+
+    <nav>
+        <ul style="list-style:none; display: flex; gap:10px;">
+            <li><a href="#about">About</a></li>
+            <li><a href="#programs">Programs</a></li>
+            <li><a href="#form">Admission</a></li>
+        </ul>
+    </nav>
+    </header>
+    <!--About-->
+    <section id="about" style="padding: 20px; border-bottom: 1px solid #ccc; ">
+        <article>
+            <p>
+                Welcome to <strong>EduTech University</strong>.
+                We focus on <em>modern education</em>.
+                Our <abbr title="information Technology">IT</abbr> programs are top ranked.
+            </p>
+            <p><mark>Admissions are now open!</mark></p>
+        </article>
+    </section>
+
+    <section id="programs" style="padding: 20px; border-bottom: 1px solid #ccc; ">
+        <table border="1" style="border-collapse: collapse;">
+            <caption>Programs offered</caption>
+            <thead>
+                <tr>
+                    <th>program</th>
+                    <th>Duration</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Computer Science</td>
+                    <td>4 Years</td>
+                </tr>
+                <tr>
+                    <td>Information Technology</td>
+                    <td>3 Years</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <td colspan="2">Apply Now</td>
+            </tfoot>
+        </table>
+    </section>
+    <!-- Announcement--> <!--why aside ?important ,extra info-->
+    <section style="padding: 20px; border-bottom: 1px solid #ccc; ">
+        <aside>
+            <details>
+                <summary>Latest Announcement</summary>
+                <blockquote>
+                    "New semester starts soon."
+                    <cite>Admin office</cite>
+                </blockquote>
+            </details>
+        </aside>
+
+    </section>
+    <!--media-->
+    <section style="padding: 20px; border-bottom: 1px solid #ccc; "> 
+            <h3>Campus Image</h3>
+    <figure>
+        <img src="image.jpg" width="200">
+        <figcaption>Main Campus Building</figcaption>
+    </figure>
+
+    <h3>University Audio Introduction</h3>
+    <p>Listen to a short introduction about our university:</p>
+    <audio id="audio1" controls autoplay loop >
+                
+        <source src="audio.mp3">
+       
+    </audio>
+
+    <h3>Campus Tour Video</h3>
+    <p>Watch a quick tour of our campus:</p>
+    <video  width="660px" height="250" controls autoplay loop >
+        <source src="aau.mp4"  type="video/mp4" />
+        <p>Your browser does not support the video tag.</p>         
+    </video>
+    </section>
+     <!-- MAP -->
+    <section style="padding: 20px; border-bottom: 1px solid #ccc; "> 
+    <h3>Campus Map</h3>
+    <p>Click on image</p>
+
+    <img src="cam3.jpg" usemap="#campus">
+
+    <map name="campus">
+        <area shape="rect" coords="50,50,150,150" href="#" alt="Main Building">
+    </map>
+
+    <h3>Location</h3>
+    <iframe 
+        src="https://www.google.com/maps?q=Addis+Ababa&output=embed" 
+        width="300" 
+        height="200">
+    </iframe>
+    </section>
+
+<!-- FORM -->
+    <section id="form" style="padding: 20px; border-bottom: 1px solid #ccc; ">
+    <form>
+        <fieldset>
+            <legend>Admission Form</legend>
+
+            <label>Name:</label>
+            <input type="texr" required autofocus><br><br>
+
+            <label>Email:</label>
+            <input type="email"><br><br>
+
+            <label>Gender:</label>
+            <input type="radio" name="g"> Male
+            <input type="radio" name="g"> Female<br><br>
+
+            <label>Course:</label>
+                 <select>
+                    <option value="computer science" >CS</option>
+                    <option value="Inforamation Technology">IT</option>
+                </select><br><br>
+
+            <label>City:</label>
+                <input list="cities">
+                <datalist id="cities">
+                    <option value="Addis Ababa">
+                    <option value="Adama">
+                    <option value="DireDawa">
+                </datalist><br><br>
+            
+            <textarea placeholder="Your message"></textarea><br><br>
+
+            
+            <input type="submit" value="Submit" />
+            <input type="reset" value="Reset" />
+
+            
+
+        </fieldset>
+    </form>
+    </section>
+
+    <!-- STATS -->
+    <section style="padding: 20px; border-bottom: 1px solid #ccc; ">
+     
+        <p>Admission Progress:</p>
+        <progress value="60" max="100"></progress>60%
+
+        <p>Student Performance:</p>
+        <meter value="0.7"></meter>
+
+        <p>Date: <time>2026-04-27</time></p>
+
+        <address>Addis Ababa, Ethiopia</address>
+</section>
+
+
+
+<!-- FOOTER -->
+<footer style="background-color:#222; color:white; padding:10px;">
+    <address>Email: info@edutech.com</address>
+    <small>&copy; 2026 EduTech University</small>
+</footer>
+    
+</body>
+</html>
+  
+       
+            

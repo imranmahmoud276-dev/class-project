@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Page Title</title>
+    <link rel='stylesheet' href='main.css'>
+</head>
+<body>
+    <h1>HTML FORM</h1>
+    <form action="ex.html" method="get">
+        
+        <label for="firstname"> name:</label> <input type="text" name="firstname" autofocus required maxlength="10" size="30" placeholder="Abebe"/><br><br>
+        password: <input type="password" name="password" maxlength="10" placeholder="&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;&#8226;" /><br><br>
+        NUMBER: <input type="number" name="number" min="0" max="100" step="10" value="20"/><br><br>
+        EMAIL: <input type="email" name="email" multiple placeholder="admin@gmail.com"/><br><br>
+        date: <input type="date" name="date" placeholder="mm/dd/yyyy" pattern="\d{2}/\d{2}/\d{4}" /><br><br>
+        url: <input type="url" name="url" /><br><br>
+        color: <input type="color" name="color" value="#a9a9a9"/><br><br>
+        range(1-100): <input type="range" name="range" min="1" max="100" step="10"value="20"/><br><br>
+        search: <input type="search" name="search" placeholder="search here" maxlength="100"/><br><br>
+        <button type="submit">send</button>
+    </form>  
+</body>
+</html>

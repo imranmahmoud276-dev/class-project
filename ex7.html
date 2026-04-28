@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Page Title</title>
+    <link rel='stylesheet' href='main.css'>
+</head>
+<body>
+   <h1>Student Registration Form</h1> 
+   <form action="">
+     Full Name:<br> <input type="text" name="firstname"  required/><br><br>
+     EMAIL:<br> <input type="email" name="email" multiple required /><br><br>
+     password: <br><input type="password" name="password" maxlength="10" required /><br><br>
+      
+   </form>
+   <p>Gender:</p>
+   <input type="radio" name="gender" value="male"> Male
+   <input type="radio" name="gender" value=" female"> Female
+   <p>Skills:</p>
+   <input type="checkbox" name="skills" value="html"> HTML
+   <input type="checkbox" name="skills" value="css"> CSS
+    <input type="checkbox" name="skills" value="javascript"> JavaScript<br><br>
+
+    Country:<br>
+    <select name="country">
+        <option value="Ethiopia">Ethiopia</option>
+        <option value="Kenya">Kenya</option>
+        <option value="Uganda">Uganda</option>
+    </select>
+    <p>Message:<br>
+    <textarea name="message" rows="5" cols="50" placeholder="Enter your message here..."></textarea>
+    </p>
+    <p>date of birth:<br>
+    <input type="date" name="dob" placeholder="mm/dd/yyyy" pattern="\d{2}/\d{2}/\d{4}" />
+    </p>
+    <label>
+    <p>Upload CV:<br>
+    <input type="file" name="cv" accept=".pdf" />
+    </p>
+    </label> 
+    <input type="submit" value="Submit" />
+    <input type="reset" value="Reset" />
+
+</body>
+</html>
